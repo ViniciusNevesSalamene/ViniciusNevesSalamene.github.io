@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios HTML</title>
+</head>
+<body>
+    <h1>Formularios HTML</h1>
+    <form>
+        <h4>Input Type Text</h4>
+        <input type="text" placeholder="placeholder">
+        <h4>Input Type E-Mail</h4>
+        <input id="e-mail" type="email" placeholder="nome@email.com"><br>
+        <h4>Input Type Checkbox</h4>
+        <label>Etiqueta de um item</label>
+        <input type="checkbox"><br>
+        <label>representada por &lt;label&gt;</label>
+        <input type="checkbox"><br>
+        <input type="checkbox"><br>
+        <h4>Input Type Tel</h4>
+        <input type="tel" placeholder="(xx) xxxxx-xxxx">
+        <h4>Input Type Number</h4>
+        <input max="10" min="-2" type="number">
+        <h5>Input Type Number (max 10)</h5>
+        <input max="10" type="number">
+        <h5>Input Type Number (min 10)</h5>
+        <input min="10" type="number">
+        <h5>Input Type Number (step 5)</h5>
+        <input step="5" type="number">
+        <h4>Input Type File</h4>
+        <input type="file"><br>
+        <h4>Input Type Color</h4>
+        <input type="color"><br>
+        <h4>Input Type Radio</h4>
+        <p>cor favorita</p>
+        <input type="radio" name = 'cor'><label>Vermelho</label><br>
+        <input type="radio" name = 'cor'><label>Azul</label><br>
+        <input type="radio" name="cor"><label>Verde</label><br>
+        <h4>Input Type Select</h4>
+        <select name="Seleção de Estado" id="selec">
+            <option>SP</option>
+            <option>MG</option>
+            <option>BA</option>
+        </select>
+        <h4>Input Type Select com Multiple</h4>
+        <select multiple name="Seleção de Estado" id="selec">
+            <option>SP</option>
+            <option>MG</option>
+            <option>BA</option>
+        </select>
+        <h4>Textarea</h4>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <h4>Button</h4>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
